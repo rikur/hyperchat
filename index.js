@@ -45,6 +45,7 @@ const init = async ({topic = Buffer.alloc(32).fill('synonym-default5'), alias = 
     await swarm.destroy({ force: true })
     await me.session().close()
     await me.close()
+    process.exit(0)
   })
 
   return {io}
