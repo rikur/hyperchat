@@ -12,7 +12,6 @@
     "corestore": "^6.15.10",
     "hyperswarm": "^4.7.4",
     "memorable-moniker": "^0.5.1",
-    "random-access-memory": "^6.2.0",
-    "zx": "^7.2.3"
+    "random-access-memory": "^6.2.0"
   }
 }
